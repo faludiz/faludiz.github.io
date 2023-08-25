@@ -1,7 +1,25 @@
 <!DOCTYPE html>
+<html lang="hu">
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Faludi Zoltán | faludiz.github.io</title>
+	</head>
+	<body>
+		<h1>Faludi Zoltán</h1>
+		<p>Tovább <a href="https://zoltan.faludi.info">Faludi Zoltán</a>, földmérő mérnök oldalára: <span id="countdown">5</span> mp</p>		
+		<script type="text/javascript">
+			var seconds = 5;    
+			function countdown() {
+				seconds = seconds - 1;
+				if (seconds < 0) {
+					window.location = "https://zoltan.faludi.info";
+				} else {
+					document.getElementById("countdown").innerHTML = seconds;
+					window.setTimeout("countdown()", 1000);
+				}
+			}
+			countdown();    
+		</script>		
+	</body>
 </html>
