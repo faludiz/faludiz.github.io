@@ -1,19 +1,17 @@
 ---
-layout: post
 title: "Az első bejegyzésem"
-date: 2026-05-30 10:00:00 +0200
-categories: teszt
+date: 2026-05-30
+categories: [Általános]
+tags: [Bemutatkozás]
 ---
 
-Itt jön a tartalom **Markdown** formátumban.
+Üdv a blogon! Ez az első bejegyzés.
 
 ## Alcím
 
 - felsorolás
 - még egy elem
 
-Kódblokk is megy:
-
-​```python
+```python
 print("szia")
-​```
+```
