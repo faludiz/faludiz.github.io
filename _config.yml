@@ -4,6 +4,7 @@ locale: hu-HU
 title: FaludiZ
 description: Geodézia, Térinformatika, Szoftverfejlesztés
 url: https://faludiz.github.io
+date_format: "%Y. %m. %d."
 
 plugins:
   - jekyll-feed
