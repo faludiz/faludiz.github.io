@@ -1,11 +1,7 @@
 title: FaludiZ
-description: Geodézia, Térfinformatika, Szoftverfejlesztés
+description: Geodézia, Térinformatika, Szoftverfejlesztés
 theme: minima
 lang: hu
 plugins:
   - jekyll-remote-theme
-  - jekyll-archives
-  - jekyll-tagging
-  - jekyll-tagging-related_posts
-  - jekyll-youtube
   - jekyll-feed
