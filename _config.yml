@@ -34,3 +34,7 @@ defaults:
 # Bloglista a főoldalon
 paginate: 5
 paginate_path: /page:num/
+
+# Oldalak
+include:
+  - _pages
